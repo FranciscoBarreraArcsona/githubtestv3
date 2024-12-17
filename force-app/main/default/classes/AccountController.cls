@@ -10,3 +10,5 @@ public with sharing class AccountController {
         return [SELECT Id, Name, Phone, Type FROM Account LIMIT 1];
     }
 }
+
+//Test for Scan PR
